@@ -7,58 +7,7 @@ using System.Threading.Tasks;
 
 //!! https://github.com/VLazorykOOP/lab6-K4chur
 //https://github.com/K4chur/LabsCSharp
-/*
-namespace Lab6CSharp
-{
-    class Letter
-    {
-        char ch = 'А';
-        int end;
-        public Letter(int end)
-        {
-            this.end = end;
-        }
-        // ітератор, що повертає end-букв
-        public IEnumerator GetEnumerator()
-        {
-            for (int i = 0; i < this.end; i++)
-            {
-                if (i == 33) yield break; // Виход із итератора
-                yield return (char)(ch + i);
-            }
-        }
-        // Створення іменованого ітератора
-        public IEnumerable MyItr(int begin, int end)
-        {
-            for (int i = begin; i <= end; i++)
-            {
-                yield return (char)(ch + i);
-            }
-        } 
-    }
-    class Program
-    {
-        static void Main()
-        {
-            Console.Write("Скільки букв вивести? ");
-            int i = int.Parse(Console.ReadLine());
-            Letter lt = new Letter(i);
-            Console.WriteLine("\nРезультат: \n");
-            foreach (char c in lt)
-                Console.Write(c + " ");
-            Console.Write("\n Введіть границі \n\nMin: ");
-            int j = int.Parse(Console.ReadLine());
-            Console.Write("Max: ");
-            int y = int.Parse(Console.ReadLine());
-            Console.WriteLine("\nРезультат: \n");
-            foreach (char c in lt.MyItr(j, y))
-                Console.Write(c + " ");
-            Console.ReadLine();
-        }
-    }
 
-}
-*/
 
 namespace Lab6CSharp//1`st
 {
